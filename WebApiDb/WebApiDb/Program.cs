@@ -9,7 +9,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
 var products = new List<Product>
 {
     new Product { ProductId = 1, Nome = "Banana", Preco = 4.6f, Quantidade = 7 },
